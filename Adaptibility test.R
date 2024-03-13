@@ -62,4 +62,4 @@ summary(models)summary(models)
 testsets$predicted_probability=predict(modl,testsetss)
 testsets$binary=ifelse(testsets$predicted_probability>0.50,1,0)
 table(testsets$set,testsets$binary)
-Error in y - mu : non-numeric argument to binary operator
+
