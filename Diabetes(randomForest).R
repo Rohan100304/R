@@ -59,9 +59,9 @@ Data_Model= randomForest(Class~., data = Testing_data, na.action = na.exclude)
 Testing_data$Predicited_data= predict(Data_Model,Testing_data)
 Testing_data$Binary= ifelse(Testing_data$Predicited_data>0.5,1,0)
 table(Testing_data$Class,Testing_data$Binary)
+plot(Data_Model)
 
-
-"
+="
 Here TRUE POSITIVE is 350
      TRUE NEGATIVE is 184
      FALSE NEAGTIVE is 4
