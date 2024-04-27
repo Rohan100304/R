@@ -40,7 +40,7 @@ summary(a7)
 a8=aov(Class~(Age),data = x)
 summary(a8)
 
-
+x=x[-c(1)]
 ###############################################
 ######## MODELLING Using Random Forest #########
 ###############################################
@@ -61,7 +61,7 @@ Testing_data$Binary= ifelse(Testing_data$Predicited_data>0.5,1,0)
 table(Testing_data$Class,Testing_data$Binary)
 plot(Data_Model)
 
-="
+ "
 Here TRUE POSITIVE is 350
      TRUE NEGATIVE is 184
      FALSE NEAGTIVE is 4
