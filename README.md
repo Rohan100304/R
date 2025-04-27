@@ -10,3 +10,8 @@ This repository contains all the R scripts and practice exercises I have worked 
 - 🎯 **Purpose:**  
   To document my learning process and track my progress as I improve my R programming skills.
 
+- 🛠️ **Tools Used:**  
+  <img src="https://www.r-project.org/logo/Rlogo.png" alt="R Logo" width="40" height="40"/>  
+  - **R**
+  - **RStudio**
+
